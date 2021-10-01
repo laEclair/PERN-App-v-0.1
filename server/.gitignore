@@ -20,6 +20,7 @@
 .env.production.local
 
 *node_modules
+*node_modules
 
 
 npm-debug.log*
