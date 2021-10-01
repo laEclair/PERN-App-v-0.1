@@ -1,3 +1,6 @@
+Stack : PERN (Postgres, express, React, Node.js)
+
+
 Start client - npm start
 start server - npm run dev
 
@@ -9,6 +12,6 @@ Login: user@mail.ru
 Password: 1234
 
 
-Postgre password: 1337
+Postgre:
 DB password: 0000
 
