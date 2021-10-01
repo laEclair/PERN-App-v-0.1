@@ -17,13 +17,13 @@ const Shop = observer(() => {
   useEffect(() =>{
     fetchTypes().then(data => service.setTypes(data))
     fetchTroublescores().then(data => service.setTroublescores(data))
-    fetchServices(null, null, 3, 2).then(data => {
+    fetchServices().then(data => {
       service.setServices(data.rows)
       service.setTotalCount(data.count)
     })
   }, [])
 
-  // 
+  // null, null, 3, 2 в fetchServices - пофиксить
 
 
   useEffect(() => {
